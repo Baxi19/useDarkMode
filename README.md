@@ -7,7 +7,7 @@ The hook uses the localStorage API to remember the user's chosen mode, so that t
 
 The paragraph also highlights the power of hook composition in React. The useLocalStorage hook and the useMedia hook are two other hooks that were created for other use cases, but can be combined together to create this new and useful hook for dark mode. This is possible because hooks in React are composable and can be reused in different contexts to create new functionality with relatively few lines of code.
 
-```
+```javascript
 // Usage
 function App() {
   const [darkMode, setDarkMode] = useDarkMode();
